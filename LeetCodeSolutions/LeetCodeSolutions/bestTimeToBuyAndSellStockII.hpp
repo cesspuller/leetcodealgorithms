@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//! Для загрузки на лит код поменять название класса на Solution
+//! Р”Р»СЏ Р·Р°РіСЂСѓР·РєРё РЅР° Р»РёС‚ РєРѕРґ РїРѕРјРµРЅСЏС‚СЊ РЅР°Р·РІР°РЅРёРµ РєР»Р°СЃСЃР° РЅР° Solution
 class TBestTimeToBuyAndSellStockll
 {
    public:
