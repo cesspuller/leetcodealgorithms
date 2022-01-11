@@ -9,6 +9,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\Array">
+      <UniqueIdentifier>{cf74620c-1fcf-4c06-90e2-9665d4d80f84}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -17,7 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="removeDuplicates.hpp">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="bestTimeToBuyAndSellStockII.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
