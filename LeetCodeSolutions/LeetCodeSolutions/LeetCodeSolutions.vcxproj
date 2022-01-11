@@ -145,8 +145,10 @@
   <ItemGroup>
     <ClInclude Include="bestTimeToBuyAndSellStockII.hpp" />
     <ClInclude Include="containsDuplicate.hpp" />
+    <ClInclude Include="isSymmetricTree.hpp" />
     <ClInclude Include="removeDuplicates.hpp" />
     <ClInclude Include="rotateArray.hpp" />
+    <ClInclude Include="Tree.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
