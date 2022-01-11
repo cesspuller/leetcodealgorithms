@@ -25,5 +25,11 @@
     <ClInclude Include="bestTimeToBuyAndSellStockII.hpp">
       <Filter>Файлы заголовков\Array</Filter>
     </ClInclude>
+    <ClInclude Include="rotateArray.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="containsDuplicate.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
