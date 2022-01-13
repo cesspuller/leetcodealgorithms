@@ -40,5 +40,11 @@
     <ClInclude Include="Tree.hpp">
       <Filter>Файлы заголовков\Tree</Filter>
     </ClInclude>
+    <ClInclude Include="singleNumber.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="intersectionOfTwoArraysll.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

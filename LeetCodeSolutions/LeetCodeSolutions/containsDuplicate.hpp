@@ -11,23 +11,23 @@ class TContainsDuplicate
 {
    public:
 
-   bool containsDuplicate( vector<int>& nums )
-   {
-      sort( nums.begin(), nums.end() );
-
-      for ( int cursor0 = 0; cursor0 < nums.size(); ++cursor0 )
+      bool containsDuplicate( vector<int>& nums )
       {
-         for ( int cursor1 = 1; cursor1 < nums.size(); ++cursor1 )
+         sort( nums.begin(), nums.end() );
+
+         for ( int cursor0 = 0; cursor0 < nums.size(); ++cursor0 )
          {
-            if ( nums.at( cursor0 ) == nums.at( cursor1 ) )
-               return true;
+            for ( int cursor1 = 1; cursor1 < nums.size(); ++cursor1 )
+            {
+               if ( nums.at( cursor0 ) == nums.at( cursor1 ) )
+                  return true;
 
-            ++cursor0;
+               ++cursor0;
+            }
          }
-      }
 
-      return false;
-   }
+         return false;
+      }
 };
 
 #endif // _T_contains_Duplicate_HPP_

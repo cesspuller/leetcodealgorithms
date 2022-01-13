@@ -5,19 +5,20 @@
 
 using namespace std;
 
-//! Для загрузки на лит код поменять название класса на Solution
+//! Р”Р»СЏ Р·Р°РіСЂСѓР·РєРё РЅР° Р»РёС‚ РєРѕРґ РїРѕРјРµРЅСЏС‚СЊ РЅР°Р·РІР°РЅРёРµ РєР»Р°СЃСЃР° РЅР° Solution
 class TSingleNumber
 {
    public:
-   int singleNumber( vector<int>&nums )
-   {
-      int ans = 0;
 
-      for ( auto res : nums )
-         ans = ans ^ res;
+      int singleNumber( vector<int>&nums )
+      {
+         int ans = 0;
 
-      return ans;
-   }
+         for ( auto res : nums )
+            ans = ans ^ res;
+
+         return ans;
+      }
 };
 
 #endif // _T_single_Number_HPP_
