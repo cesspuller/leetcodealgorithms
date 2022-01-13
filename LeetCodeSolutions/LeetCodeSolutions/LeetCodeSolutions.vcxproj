@@ -147,6 +147,8 @@
     <ClInclude Include="containsDuplicate.hpp" />
     <ClInclude Include="intersectionOfTwoArraysll.hpp" />
     <ClInclude Include="isSymmetricTree.hpp" />
+    <ClInclude Include="moveZeroes.hpp" />
+    <ClInclude Include="plusOne.hpp" />
     <ClInclude Include="removeDuplicates.hpp" />
     <ClInclude Include="rotateArray.hpp" />
     <ClInclude Include="singleNumber.hpp" />

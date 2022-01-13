@@ -46,5 +46,11 @@
     <ClInclude Include="intersectionOfTwoArraysll.hpp">
       <Filter>Файлы заголовков\Array</Filter>
     </ClInclude>
+    <ClInclude Include="plusOne.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="moveZeroes.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

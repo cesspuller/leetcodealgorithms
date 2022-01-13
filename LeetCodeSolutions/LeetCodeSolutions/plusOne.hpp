@@ -6,7 +6,7 @@
 using namespace std;
 
 //! Для загрузки на лит код поменять название класса на Solution
-class Solution
+class TPlusOne
 {
    public:
 
