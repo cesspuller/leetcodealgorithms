@@ -143,25 +143,26 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bestTimeToBuyAndSellStockII.hpp" />
-    <ClInclude Include="containsDuplicate.hpp" />
-    <ClInclude Include="firstUniqueCharacterInAString.hpp" />
-    <ClInclude Include="intersectionOfTwoArraysll.hpp" />
-    <ClInclude Include="isSymmetricTree.hpp" />
-    <ClInclude Include="moveZeroes.hpp" />
-    <ClInclude Include="plusOne.hpp" />
-    <ClInclude Include="removeDuplicates.hpp" />
-    <ClInclude Include="reverseInteger.hpp" />
-    <ClInclude Include="reverseString.hpp" />
-    <ClInclude Include="rotateArray.hpp" />
-    <ClInclude Include="rotateImage.hpp" />
-    <ClInclude Include="singleNumber.hpp" />
-    <ClInclude Include="stringToInteger.hpp" />
-    <ClInclude Include="Tree.hpp" />
-    <ClInclude Include="twoSum.hpp" />
-    <ClInclude Include="validAnagram.hpp" />
-    <ClInclude Include="validPalindrome.hpp" />
-    <ClInclude Include="validSudoku.hpp" />
+    <ClInclude Include="Array\bestTimeToBuyAndSellStockII.hpp" />
+    <ClInclude Include="Array\containsDuplicate.hpp" />
+    <ClInclude Include="Array\intersectionOfTwoArraysll.hpp" />
+    <ClInclude Include="Array\moveZeroes.hpp" />
+    <ClInclude Include="Array\plusOne.hpp" />
+    <ClInclude Include="Array\removeDuplicates.hpp" />
+    <ClInclude Include="Array\rotateArray.hpp" />
+    <ClInclude Include="Array\rotateImage.hpp" />
+    <ClInclude Include="Array\singleNumber.hpp" />
+    <ClInclude Include="Array\twoSum.hpp" />
+    <ClInclude Include="Array\validSudoku.hpp" />
+    <ClInclude Include="String\firstUniqueCharacterInAString.hpp" />
+    <ClInclude Include="String\reverseInteger.hpp" />
+    <ClInclude Include="String\reverseString.hpp" />
+    <ClInclude Include="String\stringToInteger.hpp" />
+    <ClInclude Include="String\validAnagram.hpp" />
+    <ClInclude Include="String\validPalindrome.hpp" />
+    <ClInclude Include="Tree\isSymmetricTree.hpp" />
+    <ClInclude Include="Tree\maxDepth.hpp" />
+    <ClInclude Include="Tree\Tree.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

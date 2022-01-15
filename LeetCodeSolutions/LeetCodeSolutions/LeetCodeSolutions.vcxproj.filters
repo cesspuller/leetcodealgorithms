@@ -25,62 +25,65 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="removeDuplicates.hpp">
+    <ClInclude Include="Array\bestTimeToBuyAndSellStockII.hpp">
       <Filter>Файлы заголовков\Array</Filter>
     </ClInclude>
-    <ClInclude Include="bestTimeToBuyAndSellStockII.hpp">
+    <ClInclude Include="Array\containsDuplicate.hpp">
       <Filter>Файлы заголовков\Array</Filter>
     </ClInclude>
-    <ClInclude Include="rotateArray.hpp">
+    <ClInclude Include="Array\intersectionOfTwoArraysll.hpp">
       <Filter>Файлы заголовков\Array</Filter>
     </ClInclude>
-    <ClInclude Include="containsDuplicate.hpp">
+    <ClInclude Include="Array\moveZeroes.hpp">
       <Filter>Файлы заголовков\Array</Filter>
     </ClInclude>
-    <ClInclude Include="isSymmetricTree.hpp">
+    <ClInclude Include="Array\plusOne.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\removeDuplicates.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\rotateArray.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\rotateImage.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\singleNumber.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\twoSum.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\validSudoku.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="String\firstUniqueCharacterInAString.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\reverseInteger.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\reverseString.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\stringToInteger.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\validAnagram.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\validPalindrome.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\isSymmetricTree.hpp">
       <Filter>Файлы заголовков\Tree</Filter>
     </ClInclude>
-    <ClInclude Include="Tree.hpp">
+    <ClInclude Include="Tree\Tree.hpp">
       <Filter>Файлы заголовков\Tree</Filter>
     </ClInclude>
-    <ClInclude Include="singleNumber.hpp">
-      <Filter>Файлы заголовков\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="intersectionOfTwoArraysll.hpp">
-      <Filter>Файлы заголовков\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="plusOne.hpp">
-      <Filter>Файлы заголовков\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="moveZeroes.hpp">
-      <Filter>Файлы заголовков\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="twoSum.hpp">
-      <Filter>Файлы заголовков\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="validSudoku.hpp">
-      <Filter>Файлы заголовков\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="rotateImage.hpp">
-      <Filter>Файлы заголовков\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="reverseString.hpp">
-      <Filter>Файлы заголовков\String</Filter>
-    </ClInclude>
-    <ClInclude Include="reverseInteger.hpp">
-      <Filter>Файлы заголовков\String</Filter>
-    </ClInclude>
-    <ClInclude Include="firstUniqueCharacterInAString.hpp">
-      <Filter>Файлы заголовков\String</Filter>
-    </ClInclude>
-    <ClInclude Include="validAnagram.hpp">
-      <Filter>Файлы заголовков\String</Filter>
-    </ClInclude>
-    <ClInclude Include="validPalindrome.hpp">
-      <Filter>Файлы заголовков\String</Filter>
-    </ClInclude>
-    <ClInclude Include="stringToInteger.hpp">
-      <Filter>Файлы заголовков\String</Filter>
+    <ClInclude Include="Tree\maxDepth.hpp">
+      <Filter>Файлы заголовков\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
