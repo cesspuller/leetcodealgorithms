@@ -145,14 +145,23 @@
   <ItemGroup>
     <ClInclude Include="bestTimeToBuyAndSellStockII.hpp" />
     <ClInclude Include="containsDuplicate.hpp" />
+    <ClInclude Include="firstUniqueCharacterInAString.hpp" />
     <ClInclude Include="intersectionOfTwoArraysll.hpp" />
     <ClInclude Include="isSymmetricTree.hpp" />
     <ClInclude Include="moveZeroes.hpp" />
     <ClInclude Include="plusOne.hpp" />
     <ClInclude Include="removeDuplicates.hpp" />
+    <ClInclude Include="reverseInteger.hpp" />
+    <ClInclude Include="reverseString.hpp" />
     <ClInclude Include="rotateArray.hpp" />
+    <ClInclude Include="rotateImage.hpp" />
     <ClInclude Include="singleNumber.hpp" />
+    <ClInclude Include="stringToInteger.hpp" />
     <ClInclude Include="Tree.hpp" />
+    <ClInclude Include="twoSum.hpp" />
+    <ClInclude Include="validAnagram.hpp" />
+    <ClInclude Include="validPalindrome.hpp" />
+    <ClInclude Include="validSudoku.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

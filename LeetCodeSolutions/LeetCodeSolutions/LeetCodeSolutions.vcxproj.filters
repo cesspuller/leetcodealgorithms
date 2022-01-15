@@ -15,6 +15,9 @@
     <Filter Include="Файлы заголовков\Tree">
       <UniqueIdentifier>{292853b0-03a6-4559-ba8e-dd1d6637d134}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\String">
+      <UniqueIdentifier>{2dfdc7f3-a8af-4d0c-a4b4-b140212d1d38}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -51,6 +54,33 @@
     </ClInclude>
     <ClInclude Include="moveZeroes.hpp">
       <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="twoSum.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="validSudoku.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="rotateImage.hpp">
+      <Filter>Файлы заголовков\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="reverseString.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="reverseInteger.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="firstUniqueCharacterInAString.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="validAnagram.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="validPalindrome.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="stringToInteger.hpp">
+      <Filter>Файлы заголовков\String</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
