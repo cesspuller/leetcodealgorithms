@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{da4c7660-2b6e-45f4-b2f4-4cd246f79958}</ProjectGuid>
-    <RootNamespace>LeetCodeSolutions</RootNamespace>
+    <ProjectGuid>{5dacd76d-0917-42df-936e-1317b58afe8e}</ProjectGuid>
+    <RootNamespace>designProject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,7 +88,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -103,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -117,7 +117,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,33 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Array\bestTimeToBuyAndSellStockII.hpp" />
-    <ClInclude Include="Array\containsDuplicate.hpp" />
-    <ClInclude Include="Array\intersectionOfTwoArraysll.hpp" />
-    <ClInclude Include="Array\moveZeroes.hpp" />
-    <ClInclude Include="Array\plusOne.hpp" />
-    <ClInclude Include="Array\removeDuplicates.hpp" />
-    <ClInclude Include="Array\rotateArray.hpp" />
-    <ClInclude Include="Array\rotateImage.hpp" />
-    <ClInclude Include="Array\singleNumber.hpp" />
-    <ClInclude Include="Array\twoSum.hpp" />
-    <ClInclude Include="Array\validSudoku.hpp" />
-    <ClInclude Include="mergeTwoSortedLists.hpp" />
-    <ClInclude Include="merge_.hpp" />
-    <ClInclude Include="palindromList.hpp" />
-    <ClInclude Include="String\firstUniqueCharacterInAString.hpp" />
-    <ClInclude Include="String\reverseInteger.hpp" />
-    <ClInclude Include="String\reverseString.hpp" />
-    <ClInclude Include="String\stringToInteger.hpp" />
-    <ClInclude Include="String\validAnagram.hpp" />
-    <ClInclude Include="String\validPalindrome.hpp" />
-    <ClInclude Include="Tree\isSymmetricTree.hpp" />
-    <ClInclude Include="Tree\maxDepth.hpp" />
-    <ClInclude Include="Tree\Tree.hpp" />
+    <ClInclude Include="Header.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,9 +18,15 @@
     <Filter Include="Файлы заголовков\String">
       <UniqueIdentifier>{2dfdc7f3-a8af-4d0c-a4b4-b140212d1d38}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\mediumList">
+      <UniqueIdentifier>{0143403e-faac-4b09-a9a9-4c9bf0fa20f7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -84,6 +90,15 @@
     </ClInclude>
     <ClInclude Include="Tree\maxDepth.hpp">
       <Filter>Файлы заголовков\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeTwoSortedLists.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="palindromList.hpp">
+      <Filter>Файлы заголовков\String</Filter>
+    </ClInclude>
+    <ClInclude Include="merge_.hpp">
+      <Filter>Файлы заголовков\mediumList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
