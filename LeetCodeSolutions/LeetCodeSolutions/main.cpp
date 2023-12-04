@@ -364,16 +364,16 @@ class Solution
    }
 };
 
-int main()
-{
-   ListNode* f1 = new ListNode( 1, new ListNode( 9, new ListNode( 9, new ListNode( 9,  new ListNode( 9, new ListNode( 9, new ListNode( 9, new ListNode( 9, new ListNode( 9, new ListNode( 9 ) ) ) )))))));
-   ListNode* f2 = new ListNode( 9 );
-
-   Solution a;
-
-   a.addTwoNumbers( f1, f2 );
-
-   
-
-   return 0;
-}
+//int main()
+//{
+//   ListNode* f1 = new ListNode( 1, new ListNode( 9, new ListNode( 9, new ListNode( 9,  new ListNode( 9, new ListNode( 9, new ListNode( 9, new ListNode( 9, new ListNode( 9, new ListNode( 9 ) ) ) )))))));
+//   ListNode* f2 = new ListNode( 9 );
+//
+//   Solution a;
+//
+//   a.addTwoNumbers( f1, f2 );
+//
+//   
+//
+//   return 0;
+//}
